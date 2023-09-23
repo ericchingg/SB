@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  /* TODO */
+  background: linear-gradient(0.25turn, chocolate, 50%, darkorange);
+}
+
+input {
+ /* TODO */
+ height: 30px;
+ width: 200px;
+ background-color: orange;
+ border: none;
+ outline: none;
+}
+
+.search-container {
+ /* TODO */
+ height: 30px;
+ width: 200px;
+ padding: 0;
+ color: black;
+ margin: 200px 650px;
+ background-color: orange;
+ ;
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+  
+  
+}
+.search-container input {
+ /* TODO */
+
+ 
+}
+.search-container .suggestions {
+   /* TODO */
+  
+}
+
+ul {
+  /* TODO */
+  width:200px;
+  padding: 0;
+
+}
+ul.has-suggestions {
+  /* TODO */
+}
+
+ul li {
+  /* TODO */
+  list-style: none;
+  background-color: orange;
+  
+  padding: 10px;
+}
+ul li:hover {
+  /* TODO */
+  width:200px;
+  padding: 10px;
+  background-color:grey ;
+}
+
+input {
+   /* TODO */
+}
