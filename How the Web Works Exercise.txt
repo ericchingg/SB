@@ -1,0 +1,32 @@
+How Web Works Exercise
+
+In your own terms, define the following terms:
+
+- What is HTTP?
+	Hypertext transfer protocol is a way to exchange information over the web.
+- What is a URL?
+	URL is a address or location for a specific website or resource.
+- What is DNS?
+	Domain Name System converts hostnames to numeric IP addresses, which allows users to find websites through URLs. 
+- What is a query string?
+	A query string can be found at the end of an URL, which specifies search parameters within a website.
+- What are two HTTP verbs and how are they different?
+	Two HTTP verbs are GET and POST. GET is used to retrieve information from a server, while POST is used to make changes to a server.
+- What is an HTTP request?
+	An HTTP request occurs when a user request information from a server.
+- What is an HTTP response?
+	An HTTP response occurs once a server receives a request and provides an action based on the request. 
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+	An HTTP header is additional or relavent information relating to a server request. URL and languages are request headers, while content information are response headers.
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+	The hostname(somesite.com) will be converted to an IP address through DNS, and a request will be sent to the server once it's been located. 
+	If not found, a status page will generate based on a corresponding code (404).
+	A response will be provided based on the resource(/some/page.html) that specifies what a user is looking for.
+
+
+Explore Dev Tools
+
+<form action='www.google.com' method='get'>
+	<input type='search'/>
+	<input type='submit'/>
+</form>
