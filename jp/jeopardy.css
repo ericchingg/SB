@@ -1,0 +1,61 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+
+body {
+  background-color: #060ce9;
+}
+
+table {
+  margin: 10px auto;
+  background-color: black;
+}
+
+tr {
+  height: 130px;
+  width: 130px;
+}
+
+td {
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  border: solid 1px black;
+  background-color: #060ce9;
+  color: aliceblue;
+}
+
+tbody {
+  height: 130px;
+  width: 130px;
+}
+
+th {
+  height: 90px;
+  width: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  border: solid 4px black;
+  background-color: #060ce9;
+  color: aliceblue;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+h1 {
+  display: block;
+  margin: 10px auto;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
