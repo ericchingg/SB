@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies App</title>
+</head>
+<body>
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+
+  $('body').append('<form>');
+  $('form').append('<input>','<input>','<button>');
+  $('input').first().attr('id', 'Title').attr('placeholder','Movie Title');
+  $('input').last().attr('id', 'Rating').attr('type','range').attr('min', '0').attr('max', '10').attr('step', '1').attr('value', '0')
+  $('button').attr('id', 'button').attr('type','submit');
+  $('body').append('<ol>');
+
+
+  $('#button').on('click', function(e) {
+    e.preventDefault();
+
+    let movie = $('#Title').val();
+    let rating = $('#Rating').val();
+
+    if(movie && movie.length > 2) {
+      $('ol').append('<li>');
+      $('li').last().html(`${movie} ${rating}`);
+      $('#Title').val('');
+      $('#Rating').val(0);
+    } else {
+      return;
+    }
+  });
+
+  $('ol').on('click',function(e) {
+    $(e.target).closest('li').remove();
+  });
+  
+</script>
+</html>
