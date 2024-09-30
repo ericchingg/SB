@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+}
+
+.homepage {
+  background-image: url('./anastasiia-ornarin-KS3DMmUwzek-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: black;
+}
